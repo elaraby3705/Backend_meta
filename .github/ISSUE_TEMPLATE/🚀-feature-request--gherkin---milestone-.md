@@ -1,9 +1,9 @@
 ---
 name: "\U0001F680 Feature Request (Gherkin + Milestone)"
-about: Use this template to describe a new feature, story, or enhancement for the
-  Django backend project using the Gherkin format with milestones and timelines.
-title: "[Feature]: "
-labels: enhancement, feature, milestone
+about: " Use this template to describe new features or enhancements with Gherkin and
+  milestone details."
+title: ''
+labels: documentation, enhancement, feature, good first issue, milestone
 assignees: ''
 
 ---
@@ -22,18 +22,18 @@ so that I can **[benefit or business value]**.
 
 ## 🧪 Acceptance Criteria (Gherkin Style)
 **Given** [initial state or precondition]  
-**And** [optional additional condition]  
-**When** [action is performed]  
-**Then** [expected result]  
-**And** [optional extra outcome]
+**And** [additional context if any]  
+**When** [user performs action]  
+**Then** [expected outcome]  
+**And** [optional outcome]
 
 ---
 
 ## 🧩 Technical Details
-- Related models / views / templates:  
-- Database migrations required:  
-- Security or authentication involved:  
-- Dependencies or libraries:  
+- Affected files / modules:  
+- Database changes:  
+- Security concerns:  
+- Dependencies or external services:  
 
 ---
 
@@ -47,7 +47,7 @@ so that I can **[benefit or business value]**.
 
 ---
 
-## 🧾 Additional Notes
+## 🔗 References
 - Related Issues / PRs: #
 - Assigned To: @username
 - Priority: 🔥 High | ⚙️ Medium | 🧊 Low
