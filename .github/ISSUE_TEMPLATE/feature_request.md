@@ -1,13 +1,3 @@
----
-name: "\U0001F680 Feature Request (Gherkin + Milestone)"
-about: " Use this template to describe new features or enhancements with Gherkin and
-  milestone details."
-title: ''
-labels: documentation, enhancement, feature, good first issue, milestone
-assignees: ''
-
----
-
 ## 🎯 Summary
 Briefly describe the feature or improvement.
 

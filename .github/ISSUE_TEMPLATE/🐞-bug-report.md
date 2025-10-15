@@ -1,0 +1,42 @@
+---
+name: "\U0001F41E Bug Report"
+about: Use this template to report bugs or issues in your Django or backend project.
+title: ''
+labels: bug, feature, help wanted, milestone, question
+assignees: ''
+
+---
+
+## 🧩 Description
+Clearly describe the bug and what part of the app it affects.
+
+---
+
+## ⚙️ Environment
+| Key | Value |
+|-----|--------|
+| Django Version |  |
+| Python Version |  |
+| Database |  |
+| OS / Platform |  |
+
+---
+
+## 🪜 Steps to Reproduce
+1. Go to ...
+2. Click on ...
+3. Observe the error.
+
+---
+
+## 💥 Expected Behavior
+Describe what should have happened.
+
+---
+
+## 🧨 Actual Behavior
+Describe what actually happened.
+
+---
+
+## 🧪 Logs / Screenshots

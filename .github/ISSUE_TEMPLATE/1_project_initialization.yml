@@ -1,0 +1,34 @@
+name: "Project Initialization & Architecture"
+description: "Setup the Django environment, database connection, and basic structure."
+title: "[Init] Setup Django Project Environment"
+labels: ["setup", "architecture", "milestone:1"]
+assignees: ["@your-username"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎯 Milestone 1: Project Initialization & Architecture  
+        **Goal:** Set up the Django project, database, and base structure.
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: "Feature Description"
+      description: "Describe what needs to be initialized or configured."
+      placeholder: "e.g., Initialize Django app, connect MySQL DB, setup .env..."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Scenario (Gherkin Format):**
+        ```gherkin
+        Feature: Project Initialization and Architecture
+          As a developer
+          I want to initialize the Django environment
+          So that the project can be developed in a structured way
+
+          Scenario: Initialize the Django Project
+            Given I have Python, pip, and Django installed
+            When I create a new Django project and configure the database
+            Then I should be able to run the server locally without errors
+        ```

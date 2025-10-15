@@ -1,0 +1,34 @@
+name: "Core Features Development"
+description: "Build core models, CRUD operations, and integrate ORM."
+title: "[Core] Develop CRUD and Models"
+labels: ["backend", "crud", "milestone:2"]
+assignees: ["@your-username"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧱 Milestone 2: Core Features Development  
+        **Goal:** Build the functional backend and database integration.
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Feature Details"
+      description: "Describe the feature or endpoint to implement."
+      placeholder: "e.g., Create User model, implement CRUD APIs..."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Scenario (Gherkin Format):**
+        ```gherkin
+        Feature: Core CRUD API Implementation
+          As a backend developer
+          I want to create and test CRUD APIs
+          So that data can be managed through the Django app
+
+          Scenario: Create and Retrieve Data Entities
+            Given I have valid database models
+            When I perform CRUD operations via the API
+            Then the system should save, retrieve, update, and delete data successfully
+        ```
