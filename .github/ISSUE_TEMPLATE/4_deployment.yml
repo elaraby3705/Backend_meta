@@ -1,0 +1,34 @@
+name: "Testing, Optimization & Deployment"
+description: "Optimize performance, add tests, containerize, and deploy the app."
+title: "[Deploy] Final Testing and Deployment"
+labels: ["deployment", "docker", "milestone:4"]
+assignees: ["@your-username"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 Milestone 4: Testing, Optimization & Deployment  
+        **Goal:** Final testing, optimization, and deploying the app to production.
+
+  - type: textarea
+    id: deployment_task
+    attributes:
+      label: "Deployment or Optimization Task"
+      description: "Describe what needs to be tested, optimized, or deployed."
+      placeholder: "e.g., Setup Docker, deploy on GCP, run unit tests..."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Scenario (Gherkin Format):**
+        ```gherkin
+        Feature: Testing, Optimization, and Deployment
+          As a DevOps engineer
+          I want to test and deploy the app in containers
+          So that it runs efficiently and reliably in production
+
+          Scenario: Deploy with Docker and Nginx
+            Given I have a Dockerfile and docker-compose setup
+            When I build and deploy to the cloud server
+            Then the application should be accessible and functional in production
+        ```
