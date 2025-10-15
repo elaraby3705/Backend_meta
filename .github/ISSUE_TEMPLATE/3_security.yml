@@ -1,0 +1,34 @@
+name: "Web Security & Validation"
+description: "Implement security layers like CSRF, Auth, and input validation."
+title: "[Security] Apply Web Security Best Practices"
+labels: ["security", "validation", "milestone:3"]
+assignees: ["@your-username"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔒 Milestone 3: Web Security & Validation  
+        **Goal:** Secure the application and validate all inputs.
+
+  - type: textarea
+    id: vulnerability
+    attributes:
+      label: "Security Task Description"
+      description: "Describe the security aspect to implement or fix."
+      placeholder: "e.g., Enable CSRF, setup JWT Auth, validate form inputs..."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Scenario (Gherkin Format):**
+        ```gherkin
+        Feature: Web Security and Validation
+          As a security-focused developer
+          I want to implement security mechanisms
+          So that the web app is protected from common vulnerabilities
+
+          Scenario: Enable CSRF Protection and Validation
+            Given I have a Django form that accepts user input
+            When I submit invalid or malicious data
+            Then the system should reject it and prevent CSRF or injection attacks
+        ```
