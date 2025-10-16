@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 import os
 import environ
 from pathlib import Path
-
 # =====================================
 # 📂 BASE DIR
 # =====================================
