@@ -1,6 +1,6 @@
 ---
 name: "⚙️ Task / Chore"
-about: Use this template for refactors, maintenance tasks, or DevOps-related updates.
+about: Use this templates for refactors, maintenance tasks, or DevOps-related updates.
 title: ''
 labels: bug, enhancement, feature, milestone
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: "\U0001F41E Bug Report"
-about: Use this template to report bugs or issues in your Django or backend project.
+about: Use this templates to report bugs or issues in your Django or backend project.
 title: ''
 labels: bug, feature, help wanted, milestone, question
 assignees: ''

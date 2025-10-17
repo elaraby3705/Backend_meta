@@ -1,0 +1,67 @@
+:root{
+  --bg: #0d1117;
+  --card: #0f1724;
+  --muted: #94a3b8;
+  --primary: #2563eb;
+  --accent: #8b5cf6;
+  --text: #e6eef8;
+  --glass: rgba(255,255,255,0.03);
+}
+
+body{background:var(--bg);color:var(--text);font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;line-height:1.6}
+a{color:var(--primary)}
+.section{padding:80px 0}
+.section-light{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)}
+
+.navbar{background:transparent!important}
+.navbar-dark .navbar-brand{color:var(--text)}
+.navbar .nav-link{color:var(--text);opacity:.9}
+.navbar .nav-link:hover{opacity:1}
+
+.hero-section{padding-top:100px;padding-bottom:100px}
+.avatar{width:140px;height:140px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,0.06)}
+
+.hero-art{display:flex;justify-content:center;align-items:center;height:100%}
+
+h1,h2,h3{color:var(--text)}
+.lead{color:var(--muted)}
+
+/* buttons */
+.btn-primary{background:linear-gradient(90deg,var(--accent),var(--primary));border:0;box-shadow:0 6px 18px rgba(39,39,42,0.4)}
+.btn-outline-light{border-color:rgba(255,255,255,0.08);color:var(--text)}
+
+/* cards */
+.card{background:var(--card);border:0;color:var(--text);box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+.service-card .service-icon{color:var(--primary)}
+
+/* skills */
+.skills-grid .skill{margin-bottom:18px}
+.progress{height:10px;background:rgba(255,255,255,0.04);border-radius:8px;overflow:hidden}
+.progress-bar{background:linear-gradient(90deg,var(--accent),var(--primary));box-shadow:0 6px 18px rgba(39,39,42,0.4)}
+
+/* carousel */
+.carousel-item{padding:30px 0}
+
+/* contact */
+#contact .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01))}
+
+/* footer */
+footer{border-top:1px solid rgba(255,255,255,0.03);color:var(--muted)}
+
+/* responsive tweaks */
+@media (max-width: 991px){
+  .hero-art{display:none}
+  .avatar{width:120px;height:120px}
+  .hero-section{padding-top:80px;padding-bottom:60px}
+}
+
+/* light mode */
+.light-mode{
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --muted: #475569;
+  --primary: #2563eb;
+  --accent: #7c3aed;
+  --text: #06121a;
+  --glass: rgba(0,0,0,0.03);
+}
