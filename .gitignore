@@ -1,3 +1,15 @@
 .env
+<<<<<<< HEAD
 .idea
 *.pyc
+=======
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# IDE files
+.idea/
+*.iml
+>>>>>>> 49df7f5 ( gitignore)
